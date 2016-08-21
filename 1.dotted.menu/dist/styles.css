@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html {
+  padding-top: 50px;
+  font-family: 'Raleway', Helvetica, arial, sans-serif;
+  text-align: center;
+  background-color: #eeeeee; }
+
+/*-------------------------------------------------------------------*/
+.menu {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 2rem auto 0 auto; }
+  .menu .pix {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #6b8f8f;
+    transition: 0.2s ease-in-out; }
+    .menu .pix:nth-of-type(1) {
+      transform: translate(0px, 0px); }
+    .menu .pix:nth-of-type(2) {
+      transform: translate(8px, 0px); }
+    .menu .pix:nth-of-type(3) {
+      transform: translate(16px, 0px); }
+    .menu .pix:nth-of-type(4) {
+      transform: translate(0px, 8px); }
+    .menu .pix:nth-of-type(5) {
+      transform: translate(8px, 8px); }
+    .menu .pix:nth-of-type(6) {
+      transform: translate(16px, 8px); }
+    .menu .pix:nth-of-type(7) {
+      transform: translate(0px, 16px); }
+    .menu .pix:nth-of-type(8) {
+      transform: translate(8px, 16px); }
+    .menu .pix:nth-of-type(9) {
+      transform: translate(16px, 16px); }
+  .menu:hover .pix {
+    background-color: #506b6b; }
+    .menu:hover .pix:nth-of-type(1) {
+      transform: translate(-4px, -4px); }
+    .menu:hover .pix:nth-of-type(3) {
+      transform: translate(20px, -4px); }
+    .menu:hover .pix:nth-of-type(7) {
+      transform: translate(-4px, 20px); }
+    .menu:hover .pix:nth-of-type(9) {
+      transform: translate(20px, 20px); }
+  .menu.active .pix:nth-of-type(1) {
+    transform: translate(0, 0); }
+  .menu.active .pix:nth-of-type(2) {
+    transform: translate(4px, 4px); }
+  .menu.active .pix:nth-of-type(3) {
+    transform: translate(16px, 0); }
+  .menu.active .pix:nth-of-type(4) {
+    transform: translate(4px, 12px); }
+  .menu.active .pix:nth-of-type(6) {
+    transform: translate(12px, 4px); }
+  .menu.active .pix:nth-of-type(7) {
+    transform: translate(0, 16px); }
+  .menu.active .pix:nth-of-type(8) {
+    transform: translate(12px, 12px); }
+  .menu.active .pix:nth-of-type(9) {
+    transform: translate(16px, 16px); }
+  .menu.active:hover .pix:nth-of-type(1) {
+    transform: translate(-4px, -4px); }
+  .menu.active:hover .pix:nth-of-type(2) {
+    transform: translate(2px, 2px); }
+  .menu.active:hover .pix:nth-of-type(3) {
+    transform: translate(20px, -4px); }
+  .menu.active:hover .pix:nth-of-type(4) {
+    transform: translate(2px, 14px); }
+  .menu.active:hover .pix:nth-of-type(6) {
+    transform: translate(14px, 2px); }
+  .menu.active:hover .pix:nth-of-type(7) {
+    transform: translate(-4px, 20px); }
+  .menu.active:hover .pix:nth-of-type(8) {
+    transform: translate(14px, 14px); }
+  .menu.active:hover .pix:nth-of-type(9) {
+    transform: translate(20px, 20px); }
+
+/*# sourceMappingURL=styles.css.map*/
